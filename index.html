@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Pages Configuration Needed - Guruthwa Study Café</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Georgia', serif;
+            background: #fef3c7;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            border: 4px solid #000;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #000;
+            padding-bottom: 15px;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            color: #c00;
+        }
+        .warning {
+            background: #ffebee;
+            border: 3px solid #c00;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .success {
+            background: #e8f5e9;
+            border: 3px solid #2e7d32;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .code-box {
+            background: #f5f5f5;
+            border: 2px solid #000;
+            padding: 15px;
+            margin: 15px 0;
+            font-family: monospace;
+            overflow-x: auto;
+        }
+        .step {
+            background: #fff3e0;
+            border-left: 5px solid #ff9800;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .step-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #ff9800;
+        }
+        a {
+            color: #1976d2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        ul {
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+        li {
+            margin: 8px 0;
+        }
+        .emoji {
+            font-size: 1.5rem;
+        }
+        .contact {
+            border-top: 3px solid #000;
+            margin-top: 40px;
+            padding-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚠️ GitHub Pages Configuration Needed</h1>
+        
+        <div class="warning">
+            <p style="font-size: 1.2rem; font-weight: bold;">
+                You're seeing this page because GitHub Pages is configured incorrectly!
+            </p>
+            <p style="margin-top: 10px;">
+                Your website files are in the <code>/docs</code> folder, but GitHub Pages is trying to serve from the root directory.
+            </p>
+        </div>
+
+        <h2>🔧 How to Fix (Takes 30 seconds)</h2>
+
+        <div class="step">
+            <span class="step-number">Step 1:</span>
+            <p><strong>Go to your repository settings:</strong></p>
+            <div class="code-box">
+                <a href="https://github.com/guruthwa/emerge/settings/pages" target="_blank">
+                    https://github.com/guruthwa/emerge/settings/pages
+                </a>
+            </div>
+        </div>
+
+        <div class="step">
+            <span class="step-number">Step 2:</span>
+            <p><strong>Find "Build and deployment" section</strong></p>
+            <ul>
+                <li>Source: <strong>Deploy from a branch</strong></li>
+                <li>Branch: <strong>main</strong></li>
+                <li>Folder: Change from <strong>/ (root)</strong> to <strong>/docs</strong> ← VERY IMPORTANT!</li>
+            </ul>
+        </div>
+
+        <div class="step">
+            <span class="step-number">Step 3:</span>
+            <p><strong>Click the [Save] button</strong></p>
+        </div>
+
+        <div class="step">
+            <span class="step-number">Step 4:</span>
+            <p><strong>Wait 2-3 minutes, then refresh this page</strong></p>
+            <p>Your beautiful website will appear! 🎉</p>
+        </div>
+
+        <div class="success">
+            <p style="font-size: 1.2rem; font-weight: bold;">
+                ✅ After fixing, your site will be live at:
+            </p>
+            <div class="code-box" style="background: white; text-align: center; font-size: 1.1rem;">
+                <a href="https://guruthwa.github.io/emerge/" target="_blank">
+                    https://guruthwa.github.io/emerge/
+                </a>
+            </div>
+        </div>
+
+        <h2>📋 What You'll Get</h2>
+        <ul>
+            <li>✅ Beautiful newspaper-themed website</li>
+            <li>✅ Mobile responsive design</li>
+            <li>✅ Call button (9778467700)</li>
+            <li>✅ WhatsApp chat integration</li>
+            <li>✅ Three pricing plans: Pratham, Madhyam, Uttam</li>
+            <li>✅ FAQ section</li>
+            <li>✅ All 12 facility features</li>
+        </ul>
+
+        <h2>🆘 Still Need Help?</h2>
+        <p>
+            If you're still seeing this page after 5 minutes:
+        </p>
+        <ul>
+            <li>Clear your browser cache (Ctrl+Shift+R or Cmd+Shift+R)</li>
+            <li>Check <a href="https://github.com/guruthwa/emerge/actions" target="_blank">GitHub Actions</a> for deployment status</li>
+            <li>Make sure you clicked [Save] in the settings</li>
+        </ul>
+
+        <div class="contact">
+            <h3>Guruthwa Study Café</h3>
+            <p><strong>📍</strong> URR14, Uppalam Road, Two Buildings After BSNL Bhavan, Trivandrum</p>
+            <p><strong>📞</strong> 9778467700</p>
+            <p><strong>⏰</strong> 7 AM - 12 AM Daily</p>
+        </div>
+    </div>
+</body>
+</html>
