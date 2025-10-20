@@ -5,7 +5,11 @@ This guide will help you deploy the Guruthwa Study Café website to GitHub Pages
 
 ## 🚀 Quick Deployment Steps
 
-### Method 1: Deploy from `build` folder (Recommended)
+### Your Repository Details
+- **GitHub URL**: https://github.com/guruthwa/emerge
+- **Live Site**: https://guruthwa.github.io/emerge/
+
+### Method 1: Deploy from `build` folder (Already Configured)
 
 1. **Push your repository to GitHub**
    ```bash
