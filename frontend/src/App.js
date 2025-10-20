@@ -6,7 +6,7 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/emerge">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
