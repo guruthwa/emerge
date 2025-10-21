@@ -150,7 +150,7 @@ const Home = () => {
                 />
                 <div className="bg-black text-white p-3 font-serif text-sm">
                   <p className="font-bold">PREMIUM AMENITIES</p>
-                  <p className="text-xs mt-1">Complimentary beverages to fuel your study sessions</p>
+                  <p className="text-xs mt-1">Fine refreshments available to fuel your study sessions</p>
                 </div>
               </div>
             </div>
